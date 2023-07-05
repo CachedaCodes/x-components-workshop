@@ -1,0 +1,33 @@
+h1, h2 {
+    position: relative;
+    color: #D7BADE !important;
+}
+
+h3 {
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap-reverse;
+
+    &:after {
+        content: ' ';
+        position: absolute;
+        width: 75px;
+        height: 3px;
+        background: #D7BADE;
+    }
+}
+
+.slidev-vclick-target {
+    transition: opacity 100ms ease;
+}
+
+.slidev-vclick-hidden {
+    opacity: .3 !important;
+    pointer-events: none;
+}
+
+.hide-click {
+    .dishonored {
+        opacity: 0 !important
+    }
+}
