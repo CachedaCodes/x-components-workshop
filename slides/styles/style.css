@@ -1,6 +1,6 @@
 h1, h2 {
     position: relative;
-    color: #D7BADE !important;
+    color: #C8C4F5 !important;
 }
 
 h3 {
@@ -13,7 +13,7 @@ h3 {
         position: absolute;
         width: 75px;
         height: 3px;
-        background: #D7BADE;
+        background: #C8C4F5;
     }
 }
 

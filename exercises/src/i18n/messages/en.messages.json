@@ -1,0 +1,132 @@
+{
+  "base": {
+    "searchBox": {
+      "clear": "Clear",
+      "placeholder": "What are you looking for?"
+    },
+    "popularSearches": {
+      "title": "Popular Searches"
+    },
+    "historyQueries": {
+      "clear": "Clear all",
+      "removeLabel": "Remove {suggestion} from history queries",
+      "title": "History Queries"
+    },
+    "myHistory": {
+      "title": "My History",
+      "subtitle": "This is the complete list of history queries",
+      "message": {
+        "header": "This data is stored locally. Just in your device and never travel outside of it.",
+        "body": "You can disable the history queries whenever you want.",
+        "footer": "Your privacy under your control."
+      },
+      "noHistory": "No history activity to show",
+      "openButton": "My History",
+      "suggestionResults": "({totalResults} results)",
+      "switch": {
+        "title": "History Queries",
+        "enable": "Enable",
+        "disable": "Disable and clear"
+      },
+      "confirmDisableModal": {
+        "title": "Disable History Queries?",
+        "message": "Disabling History Queries you also clear all the history list.",
+        "dismiss": "Cancel",
+        "confirm": "Disable"
+      }
+    },
+    "nextQueries": {
+      "title": "What's Next"
+    },
+    "nextQueriesGroup": {
+      "message": "Those who searched for {query} also viewed:"
+    },
+    "nextQueryPreview": {
+      "message": "Those who searched for {query} also viewed:",
+      "query": "{query}",
+      "totalResults": "({totalResults})",
+      "viewResults": "View all results"
+    },
+    "identifierResults": {
+      "title": "SKU Search"
+    },
+    "recommendations": {
+      "title": "Top Clicked"
+    },
+    "facets": {
+      "gender": "Gender",
+      "categoryPaths": "Categories",
+      "price": "Price",
+      "brand": "Brand",
+      "fit": "Fit"
+    },
+    "facetsPanel": {
+      "title": "SORT & FILTER",
+      "viewResults": "VIEW {totalResults} RESULTS"
+    },
+    "filters": {
+      "all": "All",
+      "showMore": "Show more",
+      "showLess": "Show less"
+    },
+    "partialResults": {
+      "query": "{query}",
+      "totalResults": "({totalResults})",
+      "viewResults": "View all"
+    },
+    "priceFilter": {
+      "lessThan": "less than {max}",
+      "fromTo": "{min} - {max}",
+      "from": "from {min}"
+    },
+    "toggleAside": {
+      "showAside": "Sort & Filter"
+    },
+    "totalResults": {
+      "message": "{totalResults} results for {query}"
+    },
+    "semanticQueries": {
+      "title": "Other similar products"
+    },
+    "sort": {
+      "label": "Sort by",
+      "values": {
+        "price asc": "Price: Low to High",
+        "price desc": "Price: High to Low",
+        "default": "Relevancy"
+      }
+    },
+    "selectedFilters": {
+      "clear": "CLEAR {selectedFiltersNumber} FILTERS"
+    },
+    "result": {
+      "addToCart": "ADD TO CART"
+    },
+    "spellcheck": {
+      "message": "No results found for '{query}'. We show you results for"
+    },
+    "noResults": {
+      "message": "Sorry but there are no results for {query}You may be interested in these products"
+    },
+    "columnPicker": {
+      "message": "View"
+    },
+    "queryPreview": {
+      "viewResults": "View all results"
+    }
+  },
+  "mobile": {
+    "nextQueriesGroup": {
+      "message": "Those who searched for {query} also viewed:"
+    },
+    "nextQueryPreview": {
+      "viewResults": "View all"
+    },
+    "totalResults": {
+      "message": "{totalResults} results"
+    },
+    "queryPreview": {
+      "viewResults": "View all"
+    }
+  }
+}
