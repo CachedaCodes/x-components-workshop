@@ -2240,14 +2240,6 @@ Clicks:
 
 ---
 
-# Advanced Usages: Extra module
-
----
-
-# Browsing Real Life Examples
-
----
-
 <div class="flex h-full justify-center items-center">
 
 ![x-logo](images%2Fx-logo.gif)
