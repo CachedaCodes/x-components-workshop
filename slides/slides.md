@@ -498,8 +498,6 @@ Multiple modules can listen to the same event and react to it.
 
 The wiring of the modules is fully customizable from within a client setup, so you can add/remove/expand listeners and actions of any module.
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
 ---
 
 ## Wiring flow example
@@ -1772,7 +1770,7 @@ Clicks:
 
 ```html {None|all}
 <Tagging :consent="true" />
-<LocationProvider location="empathize">
+<LocationProvider location="predictive_layer">
   <Result
     :item="result"
   />
@@ -2156,3 +2154,102 @@ Clicks:
 
 </div>
 
+---
+
+# Exercise 1: Styling
+
+1. All the buttons should use the XDS
+2. Color of the lead button should be #E30613
+3. Color of the auxiliary button should be #EBAA20
+4. Border of the auxiliary button should be #EBAA20
+5. Font family should be Lora
+6. All buttons should have a border radius of 3px
+
+<Timer :minutes="10"/>
+
+---
+
+# Exercise 2: Search Box & Slots
+
+1. Have a Search input
+2. Have a button to clear the input
+3. They should be in an input group with the clear on the left
+4. In tablet size or more, the clear button should have a text that says "Clear"
+5. In mobile, the clear button should be an "X" icon and circled
+
+<Timer :minutes="5"/>
+
+---
+
+# Exercise 3: Result List
+
+1. Search for "sandal"
+2. Have a list of results
+3. The results should be arranged in a grid of 5 for desktop and 1 for mobile
+4. Next queries should appear in groups of two and at the end of the third page
+5. The promoted results should have a title indicating that they're a promoted result
+6. The results should have the discounted price in red
+7. The result collection and the brand should be in the same line
+
+<Timer :minutes="10"/>
+
+---
+
+# Exercise 4: Internationalization
+
+1. Clear button in the search box should be "Remove"
+2. The total results should "Total results: numberOfResults"
+3. In spanish, clear button should be "Limpiar"
+4. Add a new language through the X Translations package
+
+<Time :minutes="3"/>
+
+---
+
+# Exercise 5: Snippet Config
+
+1. The default currency should be USD
+2. Add a new currency with its own format
+3. Add a new query preview 
+4. Add a callback for the event that is emitted when a user clicks a result that alerts with the name of the result clicked
+
+<Timer :minutes="6"/>
+
+---
+
+# Exercise 6: Module manipulation
+
+1. Set the semantic queries module to a threshold of 60
+2. Set the session life time for the history queries to 1 hour
+3. Set the related tags wiring so it listens to the `UserClickedResult` event
+4. For the `UserClickedResult` event in the related tags, remove all the related tags with a wire
+5. Make the related tags module stop listening to `UserClearedQuery`
+   
+<Timer :minutes="10"/>
+
+---
+
+# Exercise 7: Adapter
+
+1. Override the `resultSchema` so it returns just the first image of the list of images in a result
+2. Override the `recommendationsRequestSchema` so it always asks for the page 1
+3. Add a new field to the result named `testField` that has the price value and make it appear in the results
+4. Create a new adapter for the related tags endpoint
+
+<Timer :minutes="10"/>
+
+---
+
+# Advanced Usages: Extra module
+
+---
+
+# Browsing Real Life Examples
+
+---
+
+<div class="flex h-full justify-center items-center">
+
+![x-logo](images%2Fx-logo.gif)
+
+</div>
